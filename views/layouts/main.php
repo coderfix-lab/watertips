@@ -29,17 +29,17 @@ AppAsset::register($this);
     <?php
     NavBar::begin([
         'brandLabel' => "语音喝水助手！",
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandUrl' => "https://blog.csdn.net/diandianxiyu_geek/article/details/121219066?spm=1001.2014.3001.5501",
         'options' => [
             'class' => 'navbar navbar-expand-md navbar-dark bg-dark fixed-top',
         ],
     ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav'],
-//        'items' => [  ['label' => 'Home', 'url' => ['/site/index']],
-
-//        ],
-    ]);
+//    echo Nav::widget([
+//        'options' => ['class' => 'navbar-nav'],
+////        'items' => [  ['label' => 'Home', 'url' => ['/site/index']],
+//
+////        ],
+//    ]);
     NavBar::end();
     ?>
 </header>
@@ -56,8 +56,8 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; My Company <?= date('Y') ?></p>
-        <p class="float-right"><?= Yii::powered() ?></p>
+        <p class="float-left"><a href="https://blog.csdn.net/diandianxiyu_geek?spm=3001.5343" >小雨青年</a></p>
+        <p class="float-right"><a href="https://blog.csdn.net/diandianxiyu_geek/article/details/121219066?spm=1001.2014.3001.5501" >原文链接</a></p>
     </div>
 </footer>
 
